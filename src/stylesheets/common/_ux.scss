@@ -1,0 +1,40 @@
+html {
+	font-family: $font;
+	overflow-x : hidden;
+}
+
+* {
+	outline: none;
+}
+
+.wrapper {
+	max-width: 1080px;
+	margin : 0 auto;
+	padding : 20px;
+}
+
+.project-bar {
+	height: 7px;
+	width: 150px;
+	display: inline-block;
+}
+
+.page {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding-top: 70px;
+	padding-bottom: 100px;
+}
+
+.page-project {
+	padding-top: 100px;
+	padding-bottom: 0px;
+
+	@media (max-width: $mobile) {
+		padding-top: 80px
+	}
+
+}

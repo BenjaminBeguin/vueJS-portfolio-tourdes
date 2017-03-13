@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="70px" viewBox="0 0 80 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>logo@3x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HOME-VOICES" transform="translate(-40.000000, -35.000000)" fill="#DFDFDF">
+            <g id="Menu" transform="translate(40.000000, 35.000000)">
+                <path d="M47.0354644,14.1106393 L47.0354644,70 L32.9248251,70 L32.9248251,14.1106393 L0.348309008,14.1106393 L0.348309008,-2.8771355e-14 L79.6119805,-1.42108547e-14 L79.6119805,14.1106393 L47.0354644,14.1106393 Z M-1.52766688e-13,17.5460997 L18.8141858,17.5460997 L18.8141858,70 L-1.52766688e-13,70 L-1.52766688e-13,17.5460997 Z M61.1461038,17.5460997 L79.9602895,17.5460997 L79.9602895,70 L61.1461038,70 L61.1461038,17.5460997 Z" id="logo"></path>
+            </g>
+        </g>
+    </g>
+</svg>

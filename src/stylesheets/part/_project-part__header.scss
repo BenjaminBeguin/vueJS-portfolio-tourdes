@@ -1,0 +1,51 @@
+.project-part {
+	&__header {
+		padding-bottom: 50px;
+
+		.project-part__title {
+			margin-bottom: 20px;
+		}
+		.project-part__intro {
+			max-width: 645px;
+		}
+	}
+
+	&.moodboard {
+		display: flex;
+		align-items: center;
+		padding-bottom: 50px;
+		
+		@media (max-width: $mobile) {
+			flex-direction: column;
+			align-items: flex-start;
+			margin-top: 0
+		}
+
+		.project-part__header {
+			padding-right : 50px;
+			padding-bottom: 0px;
+
+			@media (max-width: $mobile) {
+				margin-bottom: 30px
+			}
+
+			.project-part__intro {
+				max-width: 380px;
+			}
+		}
+
+		.project-part__picture{
+			max-width: 100%;
+			margin : 0 auto;
+			text-align: center;
+
+			img {
+				max-width: 630px;
+
+				@media (max-width: $mobile) {
+					width: 90%;
+				}
+			}
+		}
+	}
+}

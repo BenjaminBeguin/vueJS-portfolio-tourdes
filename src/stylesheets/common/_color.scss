@@ -1,0 +1,167 @@
+$pink: #FC389A;
+$green: #21D878;
+$yellow: #FFCF59;
+$blue: #639CFF;
+$purple: #BF63FF;
+$grey-light: #E9E9E9;
+$dark : #3C3C3C;
+$red: #CE3131;
+
+.pink, [data-color="pink"] {
+	.color-colored {
+		color : $pink;
+	}
+
+	.background-colored {
+		background: $pink;
+	}
+
+	.before-colored{
+		&:before,
+		&:after {
+			background: $pink;
+		}
+	}
+
+	&.project-link {
+		background-color: $pink;
+	}
+
+	.inner {
+		&:before {
+	    	background-color: $pink
+		}
+	}
+
+	.back-link {
+		color: $pink;
+	}
+
+}
+
+.green, [data-color="green"] {
+	.color-colored {
+		color : $green;
+	}
+
+	.background-colored {
+		background: $green;
+	}
+
+	.before-colored{
+		&:before,
+		&:after {
+			background: $green;
+		}
+	}
+
+	&.project-link {
+		background-color: $green;
+	}
+
+	.inner {
+		&:before {
+	    	background-color: $green
+		}
+	}
+
+	.back-link {
+		color: $green;
+	}
+}
+
+.yellow, [data-color="yellow"] {
+	.color-colored {
+		color : $yellow;
+	}
+
+	.background-colored {
+		background: $yellow;
+	}
+
+	.before-colored{
+		&:before,
+		&:after {
+			background: $yellow;
+		}
+	}
+
+	&.project-link {
+		background-color: $yellow;
+	}
+
+	.inner {
+		&:before {
+	    	background-color: $yellow
+		}
+	}
+
+	.back-link {
+		color: $yellow;
+	}
+}
+
+.blue, [data-color="blue"] {
+	.color-colored {
+		color : $blue;
+	}
+
+	.background-colored {
+		background: $blue;
+	}
+
+	.before-colored{
+		&:before,
+		&:after {
+			background: $blue;
+		}
+	}
+
+	&.project-link {
+		background-color: $blue;
+	}
+
+	.inner {
+		&:before {
+	    	background-color: $blue
+		}
+	}
+
+	.back-link {
+		color: $blue;
+	}
+}
+
+.purple, [data-color="purple"] {
+	.color-colored {
+		color : $purple;
+	}
+
+	.background-colored {
+		background: $purple;
+	}
+
+	.before-colored{
+		&:before {
+			background: $purple;
+		}
+	}
+
+	&.project-link {
+		background-color: $purple;
+	}
+
+	.inner {
+		&:before {
+	    	background-color: $purple
+		}
+	}
+
+	.back-link {
+		color: $purple;
+	}
+}
+
+.color-gray {
+	color : $grey-light;
+}

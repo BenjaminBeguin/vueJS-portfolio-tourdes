@@ -1,0 +1,12 @@
+.project-part__preparation {
+	position: relative;
+	text-align: center;
+
+	img {
+		max-width: 80%;
+
+		@media (max-width: $tablet) {
+			width: 100%;
+		}
+	}
+}

@@ -1,0 +1,54 @@
+.project-part {
+
+	&.decoration {
+		padding-top: 30px;
+
+		@media (max-width: $tablet) {
+			display: none;
+		}
+
+		&[data-disposition="fullsize"] {
+			.decoration-container {
+				//max-width: 1080px;
+				/*margin: 0 auto;*/
+			}
+		}
+
+		&[data-disposition="contain"] {
+			.decoration-container {
+				margin: 0 auto;
+				max-width: 1080px;
+			}
+		}
+
+		.decoration-container {
+			position: relative;
+			height: 300px;
+			z-index: -1;
+
+			img {
+				position: absolute;
+
+				&:first-child {
+					left: 0;
+				}
+
+				&:nth-child(2) {
+					right: 0px;
+					top: -100%;
+					max-width: 500px;
+				}
+			}
+		}
+	}
+}
+
+.project-part__decoration {
+	position: absolute;
+	right: 0;
+	z-index: -1;
+
+	@media (max-width: $mobile) {
+		display: none;
+	}
+}

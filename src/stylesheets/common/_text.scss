@@ -1,0 +1,134 @@
+// COMMON
+
+.small-text,
+.text,
+.text-ancors,
+.slider-title,
+.slider-subtitle,
+.project-title,
+.project-subtitle,
+.project-part__title {
+	font-family: $font;
+}
+
+.small-text {
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.about-container {
+	.text {
+		a {
+	    color: white;
+	    text-decoration: none;
+	  }
+	}
+}
+
+.text {
+	font-size: 14px;
+	color: $dark;
+	line-height: 21px;
+
+	strong {
+		font-weight: bolder;
+	}
+
+	a {
+		/*text-decoration: none;*/
+		color: $dark;
+		font-weight: 800;
+	}
+}
+
+.text-ancors {
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing : 1.51px;
+	position: relative;
+	text-decoration: none;
+	display: inline-block;
+	padding-bottom: 4px;
+
+	&:before {
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 2px;
+		bottom: 0;
+	}
+}
+
+// SLIDER
+
+.slider-title,
+.page-about-title {
+	font-size : 34px;
+	font-weight: bold;
+	text-transform : uppercase;
+	letter-spacing: 3.2px;
+	margin-bottom : 5px;
+
+	@media (max-width: $mobile) {
+		font-size: 26px
+	}
+}
+
+
+.slider-subtitle,
+.page-about-subtitle {
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 0.9px;
+	color : white;
+
+	span.last {
+		.line {
+			display: none;
+		}
+	}
+
+	@media (max-width: $mobile) {
+		white-space: normal;
+
+		span {
+			display: inline-block;
+			margin-right: 2px;
+			margin-bottom: 2px;
+		}
+	}
+}
+
+// PROJECT CASE STUDY
+
+.project-title {
+	font-size: 64px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 6px;
+
+	@media (max-width: $mobile) {
+		font-size: 42px;
+		letter-spacing: 3px;
+	}
+}
+
+.project-subtitle {
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 0.86px;
+
+	span.last {
+		.line {
+			display: none;
+		}
+	}
+}
+
+.project-part__title {
+	font-size: 36px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
